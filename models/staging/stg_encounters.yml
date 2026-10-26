@@ -39,6 +39,6 @@
         description: The class of encounter - 'emergency','wellness',etc.
         data_tests:
           - not_null
-          - relationships
+          - relationships:
               to: ref('encounter_class_map')
               field: encounter_class
