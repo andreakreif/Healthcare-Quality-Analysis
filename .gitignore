@@ -3,4 +3,5 @@ dbt_internal_packages/
 logs/
 target/
 .env
-synthea_raw_csv\
+synthea_raw_csv/
+.venv/
